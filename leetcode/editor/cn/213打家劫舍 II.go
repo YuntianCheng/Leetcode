@@ -41,54 +41,26 @@
 package main
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func basicRob(nums []int) int {
-	length := len(nums)
-	if length == 1 {
-		return nums[0]
-	}
-	first := nums[0]
-	var second int
-	if nums[0] > nums[1] {
-		second = nums[0]
-	} else {
-		second = nums[1]
-	}
-	if length == 2 {
-		return second
-	}
-	var result int
-	for i := 2; i < length; i++ {
-		tmp1 := first + nums[i]
-		if second > tmp1 {
-			result = second
-		} else {
-			result = tmp1
-		}
-		first = second
-		second = result
-	}
-	return result
-}
 
 func rob(nums []int) int {
 	if len(nums) == 1 {
 		return nums[0]
 	}
-	if len(nums) == 2 {
-		if nums[0] > nums[1] {
-			return nums[0]
-		} else {
-			return nums[1]
+	a, b, c, d := 0, 0, 0, 0
+	for i := 0; i < len(nums)-1; i++ {
+		a, b = b, nums[i]+a
+		if b < a {
+			b = a
+		}
+		c, d = d, nums[i+1]+c
+		if d < c {
+			d = c
 		}
 	}
-	nums1 := nums[1:len(nums)]
-	nums2 := nums[:len(nums)-1]
-	result1 := basicRob(nums1)
-	result2 := basicRob(nums2)
-	if result2 > result1 {
-		return result2
+	if b > d {
+		return b
 	}
-	return result1
+	return d
 }
 
 //leetcode submit region end(Prohibit modification and deletion)

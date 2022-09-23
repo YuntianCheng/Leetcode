@@ -45,16 +45,13 @@ package main
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func maxSubArray(nums []int) int {
-	sum := nums[0]
 	max := nums[0]
 	for i := 1; i < len(nums); i++ {
-		if sum > 0 {
-			sum += nums[i]
-		} else {
-			sum = nums[i]
+		if nums[i-1] > 0 {
+			nums[i] += nums[i-1]
 		}
-		if sum > max {
-			max = sum
+		if nums[i] > max {
+			max = nums[i]
 		}
 	}
 	return max

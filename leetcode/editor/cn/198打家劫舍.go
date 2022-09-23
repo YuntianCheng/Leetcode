@@ -52,11 +52,9 @@ func rob(nums []int) int {
 	}
 	var result int
 	for i := 2; i < length; i++ {
-		tmp1 := first + nums[i]
-		if second > tmp1 {
+		result = first + nums[i]
+		if second > result {
 			result = second
-		} else {
-			result = tmp1
 		}
 		first = second
 		second = result

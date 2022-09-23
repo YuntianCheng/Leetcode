@@ -44,8 +44,8 @@
 package main
 
 //leetcode submit region begin(Prohibit modification and deletion)
-type Empty struct {
-}
+//type Empty struct {
+//}
 
 type Xy struct {
 	X int

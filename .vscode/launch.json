@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch xiaomi",
+            "request": "launch",
+            "mainClass": "xiaomi",
+            "projectName": "LeetCode_89c5e95c"
+        },
+        {
             "name": "Python: Current File",
             "type": "python",
             "request": "launch",

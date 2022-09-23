@@ -46,14 +46,46 @@
 // 0 <= grid[i][j] <=1
 //
 //
-// Related Topics 深度优先搜索 广度优先搜索 并查集 数组 矩阵 👍 160 👎 0
+// Related Topics 深度优先搜索 广度优先搜索 并查集 数组 矩阵 👍 162 👎 0
 
 package main
 
+import "fmt"
+
 //leetcode submit region begin(Prohibit modification and deletion)
+
+func isClosedIsland(grid [][]int, i int, j int) bool {
+	var left, right, top, bottom bool
+	if i >= 0 && i < len(grid) && j >= 0 && j < len(grid[i]) {
+		if grid[i][j] == 0 {
+			grid[i][j] = -1
+			left = isClosedIsland(grid, i, j-1)
+			right = isClosedIsland(grid, i, j+1)
+			top = isClosedIsland(grid, i-1, j)
+			bottom = isClosedIsland(grid, i+1, j)
+			if left && right && top && bottom {
+				return true
+			}
+		} else if grid[i][j] == 1 || grid[i][j] == -1 {
+			return true
+		}
+	}
+	return false
+}
+
 func closedIsland(grid [][]int) int {
 	count := 0
+	for i := 0; i < len(grid); i++ {
+		for j := 0; j < len(grid[i]); j++ {
+			if grid[i][j] == 0 && isClosedIsland(grid, i, j) {
+				count++
+			}
+		}
+	}
 	return count
 }
 
 //leetcode submit region end(Prohibit modification and deletion)
+func main() {
+	fmt.Println(closedIsland([][]int{{1, 1, 1, 1, 1, 1, 1, 0}, {1, 0, 0, 0, 0, 1, 1, 0}, {1, 0, 1, 0, 1, 1, 1, 0}, {1, 0, 0, 0, 0, 1, 0, 1}, {1, 1, 1, 1, 1, 1, 1, 0}}))
+}
