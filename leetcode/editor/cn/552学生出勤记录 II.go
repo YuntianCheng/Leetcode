@@ -55,30 +55,26 @@
 
 package main
 
+import "fmt"
+
 //leetcode submit region begin(Prohibit modification and deletion)
 func checkRecord(n int) int {
-	if n == 1 {
-		return 3
+	//对于某个长度为i的记录序列，以下变量表示对应情况的序列数量
+	//P: 序列中没有A，最新的一个记录不是L
+	//AP: 序列中有过A，最新的一个记录不是L
+	//L: 序列中没有A，最新的一个记录是L
+	//AL: 序列中有过A，最新的一个记录是L
+	//LL: 序列中没有A，最新的两个记录是LL
+	//ALL: 序列中有过A，最新的两个记录是LL
+	//A: 最新的一个记录是A
+	var P, L, LL, AP, AL, ALL, A = 1, 1, 0, 0, 0, 0, 1
+	for i := 2; i <= n; i++ {
+		P, L, LL, AP, AL, ALL, A = (P+L+LL)%1000000007, P, L, (AP+A+AL+ALL)%1000000007, (A+AP)%1000000007, AL, (P+L+LL)%1000000007
 	}
-	if n == 2 {
-		return 8
-	}
-	if n == 3 {
-		return 18
-	}
-	f, g := make([]uint64, n+1), make([]uint64, n+1)
-	f[0], g[0] = 1, 1
-	f[1], g[1] = 3, 2
-	f[2], g[2] = 8, 4
-	f[3], g[3] = 19, 7
-	for i := 4; i <= n; i++ {
-		g[i] = (2*g[i-1] - g[i-4]) % 1000000007
-		f[i] = (2*f[i-1] + g[i-1] - f[i-4] - g[i-4]) % 1000000007
-	}
-	return int(f[n])
+	return (P + L + LL + AP + AL + ALL + A) % 1000000007
 }
 
 //leetcode submit region end(Prohibit modification and deletion)
 func main() {
-	checkRecord(10101)
+	fmt.Println(checkRecord(10101))
 }

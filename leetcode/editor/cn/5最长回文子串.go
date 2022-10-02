@@ -33,7 +33,7 @@ package main
 import "fmt"
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func longestPalindrome(s string) string {
+func longestPalindrome1(s string) string {
 	var maxOu string
 	var maxJi string
 	for i := 0; i < len(s); i++ {
