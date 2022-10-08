@@ -49,20 +49,20 @@ func longestValidParentheses(s string) int {
 	if len(s) == 0 {
 		return 0
 	}
-	nums := make([]int, len(s))
+	dp := make([]int, len(s))
 	max := 0
 	for i := 1; i < len(s); i++ {
 		if s[i] == ')' {
-			tmp := i - nums[i-1] - 1
+			tmp := i - dp[i-1] - 1
 			if tmp >= 0 && s[tmp] == '(' {
-				nums[i] = nums[i-1] + 2
+				dp[i] = dp[i-1] + 2
 				if tmp > 0 {
-					nums[i] += nums[tmp-1]
+					dp[i] += dp[tmp-1]
 				}
 			}
 		}
-		if max < nums[i] {
-			max = nums[i]
+		if max < dp[i] {
+			max = dp[i]
 		}
 	}
 	return max

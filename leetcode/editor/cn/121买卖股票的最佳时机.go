@@ -37,7 +37,7 @@
 package main
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func maxProfit3(prices []int) int {
+func maxProfit1(prices []int) int {
 	max := 0
 	i := 0
 	for j := 1; j < len(prices); j++ {

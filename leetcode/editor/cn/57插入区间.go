@@ -56,18 +56,46 @@
 
 package main
 
+import "fmt"
+
 //leetcode submit region begin(Prohibit modification and deletion)
 func insert(intervals [][]int, newInterval []int) [][]int {
-	var index = -1
-	for i := 0; i < len(intervals)-1; i++ {
+	var start = len(intervals)
+	for i := 0; i < len(intervals); i++ {
 		if intervals[i][0] > newInterval[0] {
-			index = i
+			start = i
 			break
 		}
 	}
-	if index > 0 {
-
+	var end = len(intervals)
+	for i := 0; i < len(intervals); i++ {
+		if intervals[i][1] > newInterval[1] {
+			end = i
+			break
+		}
 	}
+	var i, j, first, last int
+	if start > 0 && newInterval[0] <= intervals[start-1][1] {
+		i = start - 1
+		first = intervals[i][0]
+	} else {
+		i = start
+		first = newInterval[0]
+	}
+	if end < len(intervals) && newInterval[1] >= intervals[end][0] {
+		j = end
+		last = intervals[end][1]
+	} else {
+		j = end - 1
+		last = newInterval[1]
+	}
+	partOne := append([][]int{}, intervals[:i]...)
+	newPart := []int{first, last}
+	partTwo := append([][]int{}, intervals[j+1:]...)
+	return append(append(partOne, newPart), partTwo...)
 }
 
 //leetcode submit region end(Prohibit modification and deletion)
+func main() {
+	fmt.Println(insert([][]int{{1, 5}}, []int{0, 0}))
+}

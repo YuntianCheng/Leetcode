@@ -59,7 +59,7 @@ package main
 //	}
 //	return dp[len(prices)-1]
 //}
-func maxProfit(prices []int) int {
+func maxProfit232(prices []int) int {
 	hold := make([]int, len(prices))
 	unhold := make([]int, len(prices))
 	hold[0] = -prices[0]

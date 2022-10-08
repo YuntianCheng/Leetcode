@@ -42,30 +42,31 @@
 ////
 //// Related Topics 递归 链表 👍 2760 👎 0
 //
-//package main
+package main
+
 //
 ////leetcode submit region begin(Prohibit modification and deletion)
-///**
-// * Definition for singly-linked list.
-// * type ListNode struct {
-// *     Val int
-// *     Next *ListNode
-// * }
-// */
-//func reverseList(head *ListNode) *ListNode {
-//	if head == nil {
-//		return head
-//	}
-//	pre := head
-//	current := head.Next
-//	pre.Next = nil
-//	for current != nil {
-//		tmp := current.Next
-//		current.Next = pre
-//		pre = current
-//		current = tmp
-//	}
-//	return pre
-//}
-//
+/**
+* Definition for singly-linked list.
+* type ListNode struct {
+*     Val int
+*     Next *ListNode
+* }
+ */
+func reverseList(head *ListNode) *ListNode {
+	if head == nil {
+		return head
+	}
+	pre := head
+	current := head.Next
+	pre.Next = nil
+	for current != nil {
+		tmp := current.Next
+		current.Next = pre
+		pre = current
+		current = tmp
+	}
+	return pre
+}
+
 ////leetcode submit region end(Prohibit modification and deletion)

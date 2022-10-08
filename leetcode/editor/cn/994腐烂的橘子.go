@@ -57,7 +57,7 @@ import "fmt"
 
 //leetcode submit region begin(Prohibit modification and deletion)
 
-func k(grid [][]int, i, j, min int) {
+func k1(grid [][]int, i, j, min int) {
 	if grid[i][j] > 0 || grid[i][j] < -2-min {
 		grid[i][j] = -2 - min
 	}

@@ -34,7 +34,7 @@ package main
 import "fmt"
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func partition(s string) [][]string {
+func partition131(s string) [][]string {
 	dp1 := make([][]bool, len(s))
 	for i, _ := range dp1 {
 		dp1[i] = make([]bool, len(s))

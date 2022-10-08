@@ -45,8 +45,40 @@
 package main
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func setZeroes(matrix [][]int) {
 
+func setZeroes(matrix [][]int) {
+	var r0, c0 bool
+	for i := 0; i < len(matrix); i++ {
+		for j := 0; j < len(matrix[i]); j++ {
+			if matrix[i][j] == 0 {
+				matrix[i][0] = 0
+				matrix[0][j] = 0
+				if i == 0 {
+					r0 = true
+				}
+				if j == 0 {
+					c0 = true
+				}
+			}
+		}
+	}
+	for i := 1; i < len(matrix); i++ {
+		for j := 1; j < len(matrix[i]); j++ {
+			if matrix[i][0] == 0 || matrix[0][j] == 0 {
+				matrix[i][j] = 0
+			}
+		}
+	}
+	if r0 {
+		for i := 0; i < len(matrix[0]); i++ {
+			matrix[0][i] = 0
+		}
+	}
+	if c0 {
+		for i := 0; i < len(matrix); i++ {
+			matrix[i][0] = 0
+		}
+	}
 }
 
 //leetcode submit region end(Prohibit modification and deletion)

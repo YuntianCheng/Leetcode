@@ -60,12 +60,12 @@ type Tree struct {
 	char     uint8
 }
 
-func Constructor() Trie {
-	trie := Trie{
-		trees: make(map[uint8]*Tree, 0),
-	}
-	return trie
-}
+//func Constructor() Trie {
+//	trie := Trie{
+//		trees: make(map[uint8]*Tree, 0),
+//	}
+//	return trie
+//}
 
 func (this *Trie) Insert(word string) {
 	var node *Tree

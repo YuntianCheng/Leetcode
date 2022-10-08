@@ -48,7 +48,7 @@ import "fmt"
  *     Next *ListNode
  * }
  */
-func isPalindrome(head *ListNode) bool {
+func isPalindrome234(head *ListNode) bool {
 	mid, end := head, head
 	var count = 1
 	for end.Next != nil {

@@ -35,11 +35,13 @@
 
 package main
 
-//type TreeNode struct {
-//	Val   int
-//	Left  *TreeNode
-//	Right *TreeNode
-//}
+import "fmt"
+
+type TreeNode struct {
+	Val   int
+	Left  *TreeNode
+	Right *TreeNode
+}
 
 //leetcode submit region begin(Prohibit modification and deletion)
 /**
@@ -50,8 +52,72 @@ package main
  *     Right *TreeNode
  * }
  */
-func maxPathSum(root *TreeNode) int {
 
+func dfs124(root *TreeNode, m map[*TreeNode]int) int {
+	if root == nil {
+		return 0
+	}
+	a := dfs124(root.Left, m)
+	b := dfs124(root.Right, m)
+	result, path := root.Val, root.Val
+	if a > 0 {
+		path += a
+		if a > b {
+			result += a
+		}
+	}
+	if b > 0 {
+		path += b
+		if b > a {
+			result += b
+		}
+	}
+	if _, ok := m[root]; !ok {
+		m[root] = path
+	}
+	return result
+}
+
+func getMaxPathValue(root *TreeNode, max *int, m map[*TreeNode]int) {
+	if root == nil {
+		return
+	}
+	var path int
+	if v, ok := m[root]; ok {
+		path = v
+	} else {
+		a := dfs124(root.Left, m)
+		b := dfs124(root.Right, m)
+		path += root.Val
+		if a > 0 {
+			path += a
+		}
+		if b > 0 {
+			path += b
+		}
+	}
+	if path > *max {
+		*max = path
+	}
+	getMaxPathValue(root.Left, max, m)
+	getMaxPathValue(root.Right, max, m)
+}
+
+func maxPathSum(root *TreeNode) int {
+	m := make(map[*TreeNode]int, 0)
+	var max = ^int(^uint(0) >> 1)
+	getMaxPathValue(root, &max, m)
+	return max
 }
 
 //leetcode submit region end(Prohibit modification and deletion)
+
+func main() {
+	root := &TreeNode{
+		Val: 2,
+		Left: &TreeNode{
+			Val: -1,
+		},
+	}
+	fmt.Println(maxPathSum(root))
+}
