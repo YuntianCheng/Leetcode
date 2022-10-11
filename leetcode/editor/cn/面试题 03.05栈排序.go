@@ -35,12 +35,12 @@ type SortedStack struct {
 	Top   int
 }
 
-func Constructor() SortedStack {
-	return SortedStack{
-		Stack: []int{},
-		Top:   0,
-	}
-}
+//func Constructor() SortedStack {
+//	return SortedStack{
+//		Stack: []int{},
+//		Top:   0,
+//	}
+//}
 
 func (this *SortedStack) Push(val int) {
 	if this.IsEmpty() {

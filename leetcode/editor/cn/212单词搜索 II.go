@@ -40,6 +40,9 @@
 package main
 
 //leetcode submit region begin(Prohibit modification and deletion)
+func buildTree
+
+
 func findWords(board [][]byte, words []string) []string {
 
 }
