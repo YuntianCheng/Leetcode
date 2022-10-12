@@ -50,7 +50,7 @@ package main
 import "fmt"
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func isPalindrome(x int) bool {
+func isPalindrome1(x int) bool {
 	if x < 0 {
 		return false
 	}
@@ -65,5 +65,5 @@ func isPalindrome(x int) bool {
 
 //leetcode submit region end(Prohibit modification and deletion)
 func main() {
-	fmt.Println(isPalindrome(121))
+	fmt.Println(isPalindrome1(121))
 }

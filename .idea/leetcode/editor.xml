@@ -1532,6 +1532,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 01.04回文排列.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 01.04回文排列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 01.04" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 01.04回文排列.go" />
+              <option name="titleSlug" value="palindrome-permutation-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 01.05一次编辑.go">
           <value>
             <LeetcodeEditor>
@@ -1540,6 +1551,50 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 01.05一次编辑.go" />
               <option name="titleSlug" value="one-away-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 01.06字符串压缩.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 01.06字符串压缩.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 01.06" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 01.06字符串压缩.go" />
+              <option name="titleSlug" value="compress-string-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 01.09字符串轮转.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 01.09字符串轮转.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 01.09" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 01.09字符串轮转.go" />
+              <option name="titleSlug" value="string-rotation-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 02.01移除重复节点.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 02.01移除重复节点.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 02.01" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 02.01移除重复节点.go" />
+              <option name="titleSlug" value="remove-duplicate-node-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 02.02返回倒数第 k 个节点.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 02.02返回倒数第 k 个节点.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 02.02" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 02.02返回倒数第 k 个节点.go" />
+              <option name="titleSlug" value="kth-node-from-end-of-list-lcci" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1562,6 +1617,17 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 02.05链表求和.go" />
               <option name="titleSlug" value="sum-lists-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 02.06回文链表.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 02.06回文链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 02.06" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 02.06回文链表.go" />
+              <option name="titleSlug" value="palindrome-linked-list-lcci" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1642,6 +1708,61 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 04.12求和路径.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 04.12求和路径.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 04.12" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 04.12求和路径.go" />
+              <option name="titleSlug" value="paths-with-sum-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 05.01插入.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 05.01插入.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 05.01" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 05.01插入.go" />
+              <option name="titleSlug" value="insert-into-bits-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 05.03翻转数位.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 05.03翻转数位.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 05.03" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 05.03翻转数位.go" />
+              <option name="titleSlug" value="reverse-bits-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 05.04下一个数.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 05.04下一个数.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 05.04" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 05.04下一个数.go" />
+              <option name="titleSlug" value="closed-number-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 05.06整数转换.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 05.06整数转换.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 05.06" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 05.06整数转换.go" />
+              <option name="titleSlug" value="convert-integer-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 05.08绘制直线.go">
           <value>
             <LeetcodeEditor>
@@ -1650,6 +1771,28 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 05.08绘制直线.go" />
               <option name="titleSlug" value="draw-line-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 08.01三步问题.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 08.01三步问题.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 08.01" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 08.01三步问题.go" />
+              <option name="titleSlug" value="three-steps-problem-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 08.02迷路的机器人.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 08.02迷路的机器人.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 08.02" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 08.02迷路的机器人.go" />
+              <option name="titleSlug" value="robot-in-a-grid-lcci" />
             </LeetcodeEditor>
           </value>
         </entry>

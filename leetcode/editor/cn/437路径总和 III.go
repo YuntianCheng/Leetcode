@@ -45,7 +45,7 @@ package main
  *     Right *TreeNode
  * }
  */
-func pathSum(root *TreeNode, targetSum int) int {
+func pathSum2(root *TreeNode, targetSum int) int {
 
 }
 

@@ -25,7 +25,23 @@ package main
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func CheckPermutation(s1 string, s2 string) bool {
-
+	if len(s1) != len(s2) {
+		return false
+	}
+	if s1 == s2 {
+		return true
+	}
+	var m [128]int
+	for i := range s1 {
+		m[s1[i]]++
+	}
+	for i := range s2 {
+		if m[s2[i]] <= 0 {
+			return false
+		}
+		m[s2[i]]--
+	}
+	return true
 }
 
 //leetcode submit region end(Prohibit modification and deletion)
