@@ -53,7 +53,7 @@ import "fmt"
  * }
  */
 
-func buildTree(root *TreeNode, nums []int, start, end int) {
+func buildTree2(root *TreeNode, nums []int, start, end int) {
 	mid := (start + end) / 2
 	root.Val = nums[mid]
 	if mid > start {

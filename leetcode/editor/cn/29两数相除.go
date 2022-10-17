@@ -35,7 +35,7 @@ package main
 import "fmt"
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func divide(dividend int, divisor int) int {
+func divide2(dividend int, divisor int) int {
 	dvd, dvs := int32(dividend), int32(divisor)
 	if dvd == ^int32(^uint32(0)>>1) && dvs == -1 {
 		return int(int32(^uint32(0) >> 1))

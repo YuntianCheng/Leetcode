@@ -38,7 +38,7 @@ package main
 import "fmt"
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func maxProduct(nums []int) int {
+func maxProduct1(nums []int) int {
 
 	result := ^int(^uint(0) >> 1)
 	min := 1

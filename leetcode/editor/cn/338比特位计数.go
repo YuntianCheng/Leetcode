@@ -54,7 +54,7 @@
 package main
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func countBits(n int) []int {
+func countBits23(n int) []int {
 	result := make([]int, n+1)
 	result[0] = 0
 	//var j = 1

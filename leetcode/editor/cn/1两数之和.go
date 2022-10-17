@@ -46,7 +46,7 @@
 package main
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func twoSum(nums []int, target int) []int {
+func twoSum1(nums []int, target int) []int {
 	var result = []int{0, 0}
 	m := make(map[int]int, 0)
 	for i, v := range nums {

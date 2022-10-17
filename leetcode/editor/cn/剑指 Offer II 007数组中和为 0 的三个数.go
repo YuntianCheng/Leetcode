@@ -47,13 +47,53 @@
 // -10⁵ <= nums[i] <= 10⁵
 //
 //
-// Related Topics 数组 双指针 排序 👍 5278 👎 0
+//
+// 注意：本题与主站 15 题相同：leetcode.cn/problems/3sum/
+//
+// Related Topics 数组 双指针 排序 👍 88 👎 0
 
 package main
 
-//leetcode submit region begin(Prohibit modification and deletion)
-func threeSum1(nums []int) [][]int {
+import (
+	"fmt"
+	"sort"
+)
 
+//leetcode submit region begin(Prohibit modification and deletion)
+func threeSum(nums []int) [][]int {
+	if len(nums) == 0 {
+		return [][]int{}
+	}
+	sort.Ints(nums)
+	result := make([][]int, 0)
+	for i := 0; nums[i] <= 0 && i < len(nums)-2; i++ {
+		if i == 0 || nums[i] != nums[i-1] {
+			var j, k = i + 1, len(nums) - 1
+			target := -nums[i]
+			for j < k {
+				sum := nums[j] + nums[k]
+				if target < sum {
+					k--
+				} else if target == sum {
+					result = append(result, []int{nums[i], nums[j], nums[k]})
+					m, n := j+1, k-1
+					for m < k && nums[m] == nums[j] {
+						m++
+					}
+					for n > j && nums[n] == nums[k] {
+						n--
+					}
+					j, k = m, n
+				} else {
+					j++
+				}
+			}
+		}
+	}
+	return result
 }
 
 //leetcode submit region end(Prohibit modification and deletion)
+func main() {
+	fmt.Println(threeSum([]int{0, 0, 0}))
+}
