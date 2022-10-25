@@ -64,7 +64,7 @@ import "fmt"
 //	}
 //}
 
-func rightSideView(root *TreeNode) []int {
+func rightSideView1(root *TreeNode) []int {
 	if root == nil {
 		return []int{}
 	}

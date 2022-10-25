@@ -45,28 +45,53 @@ import "fmt"
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func candy(ratings []int) int {
-	var result = 1
-	var pre, desc, ins = 1, 0, 1
-	for i := 1; i < len(ratings); i++ {
-		if ratings[i] >= ratings[i-1] {
-			desc = 0
-			if ratings[i] == ratings[i-1] {
-				pre = 1
-			} else {
-				pre++
-			}
-			ins = pre
-			result += pre
+	//var result = 1
+	//var pre, desc, ins = 1, 0, 1
+	//for i := 1; i < len(ratings); i++ {
+	//	if ratings[i] >= ratings[i-1] {
+	//		desc = 0
+	//		if ratings[i] == ratings[i-1] {
+	//			pre = 1
+	//		} else {
+	//			pre++
+	//		}
+	//		ins = pre
+	//		result += pre
+	//	} else {
+	//		desc++
+	//		pre = 1
+	//		if desc == ins {
+	//			desc++
+	//		}
+	//		result += desc
+	//	}
+	//}
+	//return result
+	var sum int
+	var left = make([]int, len(ratings))
+	for i := range ratings {
+		if i > 0 && ratings[i] > ratings[i-1] {
+			left[i] = left[i-1] + 1
 		} else {
-			desc++
-			pre = 1
-			if desc == ins {
-				desc++
-			}
-			result += desc
+			left[i] = 1
 		}
 	}
-	return result
+	var right int
+	for j := len(ratings) - 1; j >= 0; j-- {
+		if j < len(ratings)-1 && ratings[j] > ratings[j+1] {
+			right++
+		} else {
+			right = 1
+		}
+		sum += max1(left[j], right)
+	}
+	return sum
+}
+func max1(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
 }
 
 //leetcode submit region end(Prohibit modification and deletion)

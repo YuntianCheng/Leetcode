@@ -30,7 +30,7 @@ package main
  *     Next *ListNode
  * }
  */
-func isPalindrome(head *ListNode) bool {
+func isPalindrome1(head *ListNode) bool {
 	if head == nil || head.Next == nil {
 		return true
 	}

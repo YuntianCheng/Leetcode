@@ -73,7 +73,7 @@ func revert(head *ListNode) *ListNode {
 	}
 	return pre
 }
-func reorderList(head *ListNode) {
+func reorderList1(head *ListNode) {
 	if head == nil || head.Next == nil {
 		return
 	}

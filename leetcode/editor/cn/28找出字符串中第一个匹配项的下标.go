@@ -66,5 +66,5 @@ func strStr(haystack string, needle string) int {
 
 //leetcode submit region end(Prohibit modification and deletion)
 func main() {
-	fmt.Println(strStr("sadbutsad", "sad"))
+	fmt.Println(strStr("sadbutsad", "but"))
 }

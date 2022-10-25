@@ -37,7 +37,7 @@ package main
  *     Next *ListNode
  * }
  */
-func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+func addTwoNumbers1(l1 *ListNode, l2 *ListNode) *ListNode {
 	c1, c2 := l1, l2
 	var i int
 	var pre *ListNode

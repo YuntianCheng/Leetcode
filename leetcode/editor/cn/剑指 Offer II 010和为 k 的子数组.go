@@ -39,28 +39,18 @@ import "fmt"
 
 //leetcode submit region begin(Prohibit modification and deletion)
 func subarraySum(nums []int, k int) int {
-	var i, sum, count int
-	for j, num := range nums {
+	var count, sum int
+	m := make(map[int]int, 0)
+	m[0] = 1
+	for _, num := range nums {
 		sum += num
-		if sum == k {
-			count++
-		} else if sum > k {
-			for ; i < j; i++ {
-				sum -= nums[i]
-				if sum == k {
-					count++
-				}
-				if sum < k {
-					i++
-					break
-				}
-			}
-		}
+		count += m[sum-k]
+		m[sum]++
 	}
 	return count
 }
 
 //leetcode submit region end(Prohibit modification and deletion)
 func main() {
-	fmt.Println(subarraySum([]int{1, 2, 1, 2, 1}, 3))
+	fmt.Println(subarraySum([]int{1}, 0))
 }

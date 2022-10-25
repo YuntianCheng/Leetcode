@@ -77,7 +77,7 @@ type LRUCache struct {
 	End      *Node
 }
 
-func Constructor(capacity int) LRUCache {
+func Constructor1(capacity int) LRUCache {
 	var lruCache LRUCache
 	lruCache.Capacity = capacity
 	lruCache.Store = make(map[int]*Node, 0)

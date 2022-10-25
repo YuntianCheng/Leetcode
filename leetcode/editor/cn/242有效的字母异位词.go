@@ -35,7 +35,7 @@
 package main
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func isAnagram(s string, t string) bool {
+func isAnagram1(s string, t string) bool {
 	if len(s) != len(t) {
 		return false
 	}

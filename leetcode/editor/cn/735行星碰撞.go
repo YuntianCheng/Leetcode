@@ -43,7 +43,7 @@
 package main
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func asteroidCollision(asteroids []int) []int {
+func asteroidCollision1(asteroids []int) []int {
 	for i := 0; i < len(asteroids); i++ {
 		if asteroids[i] < 0 {
 			for j := i - 1; j >= 0; j-- {

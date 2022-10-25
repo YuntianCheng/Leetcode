@@ -38,7 +38,7 @@ package main
 import "fmt"
 
 //leetcode submit region begin(Prohibit modification and deletion)
-func largestRectangleArea(heights []int) int {
+func largestRectangleArea1(heights []int) int {
 	measure1 := make([]int, len(heights))
 	measure2 := make([]int, len(heights))
 	var singleStack = []int{0}
