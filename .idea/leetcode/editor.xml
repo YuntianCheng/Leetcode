@@ -806,6 +806,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/300最长递增子序列.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/300最长递增子序列.md" />
+              <option name="frontendQuestionId" value="leetcode.cn300" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/300最长递增子序列.go" />
+              <option name="titleSlug" value="longest-increasing-subsequence" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/309最佳买卖股票时机含冷冻期.go">
           <value>
             <LeetcodeEditor>
@@ -1565,6 +1576,94 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 03数组中重复的数字.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/剑指 Offer 03数组中重复的数字.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 03" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 03数组中重复的数字.go" />
+              <option name="titleSlug" value="shu-zu-zhong-zhong-fu-de-shu-zi-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 04二维数组中的查找.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/剑指 Offer 04二维数组中的查找.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 04" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 04二维数组中的查找.go" />
+              <option name="titleSlug" value="er-wei-shu-zu-zhong-de-cha-zhao-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 05替换空格.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/剑指 Offer 05替换空格.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 05" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 05替换空格.go" />
+              <option name="titleSlug" value="ti-huan-kong-ge-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 06从尾到头打印链表.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/剑指 Offer 06从尾到头打印链表.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 06" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 06从尾到头打印链表.go" />
+              <option name="titleSlug" value="cong-wei-dao-tou-da-yin-lian-biao-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 07重建二叉树.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/剑指 Offer 07重建二叉树.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 07" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 07重建二叉树.go" />
+              <option name="titleSlug" value="zhong-jian-er-cha-shu-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 12矩阵中的路径.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/剑指 Offer 12矩阵中的路径.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 12" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 12矩阵中的路径.go" />
+              <option name="titleSlug" value="ju-zhen-zhong-de-lu-jing-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 14- I剪绳子.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/剑指 Offer 14- I剪绳子.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 14- I" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 14- I剪绳子.go" />
+              <option name="titleSlug" value="jian-sheng-zi-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 51数组中的逆序对.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/剑指 Offer 51数组中的逆序对.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer 51" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer 51数组中的逆序对.go" />
+              <option name="titleSlug" value="shu-zu-zhong-de-ni-xu-dui-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer II 001整数除法.go">
           <value>
             <LeetcodeEditor>
@@ -2071,6 +2170,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer II 049从根节点到叶节点的路径数字之和.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/剑指 Offer II 049从根节点到叶节点的路径数字之和.md" />
+              <option name="frontendQuestionId" value="leetcode.cn剑指 Offer II 049" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer II 049从根节点到叶节点的路径数字之和.go" />
+              <option name="titleSlug" value="3Etpl5" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/剑指 Offer II 058日程表.go">
           <value>
             <LeetcodeEditor>
@@ -2464,6 +2574,61 @@
               <option name="host" value="leetcode.cn" />
               <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 08.08有重复字符串的排列组合.go" />
               <option name="titleSlug" value="permutation-ii-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 08.09括号.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 08.09括号.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 08.09" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 08.09括号.go" />
+              <option name="titleSlug" value="bracket-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 08.11硬币.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 08.11硬币.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 08.11" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 08.11硬币.go" />
+              <option name="titleSlug" value="coin-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 08.12八皇后.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 08.12八皇后.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 08.12" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 08.12八皇后.go" />
+              <option name="titleSlug" value="eight-queens-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题13机器人的运动范围.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题13机器人的运动范围.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题13" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题13机器人的运动范围.go" />
+              <option name="titleSlug" value="ji-qi-ren-de-yun-dong-fan-wei-lcof" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题59 - II队列的最大值.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题59 - II队列的最大值.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题59 - II" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题59 - II队列的最大值.go" />
+              <option name="titleSlug" value="dui-lie-de-zui-da-zhi-lcof" />
             </LeetcodeEditor>
           </value>
         </entry>

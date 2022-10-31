@@ -53,7 +53,7 @@ import "fmt"
  * }
  */
 
-func buildTree(preorder []int, inorder []int) *TreeNode {
+func buildTree1(preorder []int, inorder []int) *TreeNode {
 	var dfsTree func(int, int, int, *TreeNode)
 	dfsTree = func(rootIndex, start, end int, root *TreeNode) {
 		if start > end {

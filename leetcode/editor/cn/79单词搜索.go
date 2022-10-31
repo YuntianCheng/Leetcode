@@ -78,7 +78,7 @@ func check(i, j, k int, word string, board [][]byte, visited [][]bool) bool {
 	return l || r || t || b
 }
 
-func exist(board [][]byte, word string) bool {
+func exist1(board [][]byte, word string) bool {
 	visited := make([][]bool, len(board))
 	for i := range visited {
 		visited[i] = make([]bool, len(board[i]))

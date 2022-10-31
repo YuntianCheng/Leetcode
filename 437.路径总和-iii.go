@@ -9,12 +9,6 @@ import (
 	"fmt"
 )
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
-
 // @lc code=start
 //   Definition for a binary tree node.
 
