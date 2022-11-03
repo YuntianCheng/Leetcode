@@ -2610,6 +2610,61 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 08.13堆箱子.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 08.13堆箱子.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 08.13" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 08.13堆箱子.go" />
+              <option name="titleSlug" value="pile-box-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 10.02变位词组.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 10.02变位词组.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 10.02" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 10.02变位词组.go" />
+              <option name="titleSlug" value="group-anagrams-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 10.09排序矩阵查找.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 10.09排序矩阵查找.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 10.09" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 10.09排序矩阵查找.go" />
+              <option name="titleSlug" value="sorted-matrix-search-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 10.11峰与谷.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 10.11峰与谷.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 10.11" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 10.11峰与谷.go" />
+              <option name="titleSlug" value="peaks-and-valleys-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题 16.03交点.go">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/leetcode/editor/cn/doc/content/面试题 16.03交点.md" />
+              <option name="frontendQuestionId" value="leetcode.cn面试题 16.03" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/面试题 16.03交点.go" />
+              <option name="titleSlug" value="intersection-lcci" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/面试题13机器人的运动范围.go">
           <value>
             <LeetcodeEditor>

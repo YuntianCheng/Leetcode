@@ -25,9 +25,52 @@
 
 package main
 
+import (
+	"fmt"
+	"strings"
+)
+
 //leetcode submit region begin(Prohibit modification and deletion)
 func solveNQueens(n int) [][]string {
-
+	if n == 1 {
+		return [][]string{{"Q"}}
+	}
+	used := make([]bool, n)
+	first, second := make([]bool, 2*n), make([]bool, 2*n)
+	var result [][]string
+	var dfsol func(int, []string)
+	dfsol = func(queensNum int, sol []string) {
+		if queensNum == 0 {
+			result = append(result, append([]string{}, sol...))
+			return
+		}
+		for i := 0; i < n; i++ {
+			if !used[i] && !first[2*n-queensNum-i] && !second[n-queensNum+i] {
+				var builder = strings.Builder{}
+				for j := 0; j < i; j++ {
+					builder.WriteByte('.')
+				}
+				builder.WriteByte('Q')
+				for j := i + 1; j < n; j++ {
+					builder.WriteByte('.')
+				}
+				used[i] = true
+				first[2*n-queensNum-i] = true
+				second[n-queensNum+i] = true
+				sol = append(sol, builder.String())
+				dfsol(queensNum-1, sol)
+				used[i] = false
+				first[2*n-queensNum-i] = false
+				second[n-queensNum+i] = false
+				sol = sol[:len(sol)-1]
+			}
+		}
+	}
+	dfsol(n, []string{})
+	return result
 }
 
 //leetcode submit region end(Prohibit modification and deletion)
+func main() {
+	fmt.Println(solveNQueens(6))
+}
